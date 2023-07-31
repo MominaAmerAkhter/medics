@@ -1,0 +1,89 @@
+
+.App {
+    font-family: Montserrat;
+  }
+  
+ 
+.Login-form-background{
+    background-image: url(./background-login-image.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}  
+
+.Login-form-container {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+  
+.Login-form {
+    width: 420px;
+    box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.Login-form-content {
+    padding-left: 12%;
+    padding-right: 12%;
+}
+
+.Login-form-title {
+    text-align: center;
+    margin-bottom: 1em;
+    font-size: 24px;
+    color: rgb(34, 34, 34);
+    font-weight: 800;
+}
+
+label {
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(34, 34, 34);
+}
+
+.Homescreen-body {
+    padding-top: 5%;
+    /* background-image: url(./background-login-image.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 0%; */
+}
+
+.Panel-cards-single {
+    padding-right: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    display: inline-block;
+    
+}
+
+.Panel-cards-double {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.card.card{
+    width: 18rem ;
+    height: 180px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+}
+
+.link-cards {
+    text-decoration: none !important;
+    color: black;
+}
